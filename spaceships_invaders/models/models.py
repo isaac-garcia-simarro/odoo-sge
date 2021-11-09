@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 
 from odoo import models, fields, api
+#from odoo import _
+#from odoo.exceptions import Warning
+import logging
+
+_logger = logging.getLogger(__name__)
 
 
 class player(models.Model):
@@ -19,6 +24,12 @@ class player(models.Model):
                                 inverse_name='player')
      spaceships = fields.One2many(comodel_name='spaceships_invaders.spaceship', 
                                 inverse_name='player')
+
+     def _get_password(self):
+          for student in self:
+               student.password = "pass aleatorio"
+               #raise Warning(_('Algo ha fallado'))#debugging
+               _logger.debug('\033[94m'+str(student)+'\033[0m')#debugging
 
 class spaceship(models.Model):
      _name = 'spaceships_invaders.spaceship'
