@@ -1,19 +1,165 @@
 <odoo>
   <data>
     <!-- explicit list view definition -->
-<!--
-    <record model="ir.ui.view" id="spaceships_invaders.list">
-      <field name="name">spaceships_invaders list</field>
-      <field name="model">spaceships_invaders.spaceships_invaders</field>
+    <record model="ir.ui.view" id="spaceships_invaders.player_list">
+      <field name="name">spaceships_invaders player list</field>
+      <field name="model">spaceships_invaders.player</field>
       <field name="arch" type="xml">
-        <tree>
+        <tree decoration-danger="gold&lt;101">
           <field name="name"/>
-          <field name="value"/>
-          <field name="value2"/>
+          <field name="birth_date"/>
+          <field name="gender"/>
+          <field name="enrollment_date"/>
+          <field name="last_login"/>
+          <field name="gold" sum="Total"/>
+          <field name="rock" sum="Total"/>
+          <field name="metal" sum="Total"/>
         </tree>
       </field>
     </record>
--->
+
+    <record model="ir.ui.view" id="spaceships_invaders.player_form">
+      <field name="name">spaceships_invaders player form</field>
+      <field name="model">spaceships_invaders.player</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <group>
+                <field name="name"/>
+                <field name="birth_date"/>
+                <field name="gender"/>
+                <field name="enrollment_date"/>
+              </group>
+              <group>
+                <field name="last_login"/>
+                <field name="gold"/>
+                <field name="rock"/>
+                <field name="metal"/>
+              </group>
+            </group>
+            <notebook>
+              <page string="Planets">
+                <field name="planets"/>
+              </page>
+              <page string="Spaceships">
+                <field name="spaceships"/>
+              </page>
+            </notebook>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="spaceships_invaders.spaceship_list">
+      <field name="name">spaceships_invaders spaceship list</field>
+      <field name="model">spaceships_invaders.spaceship</field>
+      <field name="arch" type="xml">
+        <tree >
+          <field name="name"/>
+          <field name="life"/>
+          <field name="is_on_planet"/>
+          <field name="type"/>
+          <field name="player"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="spaceships_invaders.spaceship_form">
+      <field name="name">spaceships_invaders spaceship form</field>
+      <field name="model">spaceships_invaders.spaceship</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <field name="name"/>
+              <field name="life"/>
+              <field name="is_on_planet"/>
+              <field name="type"/>
+              <field name="player"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="spaceships_invaders.spaceship_type_list">
+      <field name="name">spaceships_invaders spaceship_type list</field>
+      <field name="model">spaceships_invaders.spaceship_type</field>
+      <field name="arch" type="xml">
+        <tree >
+          <field name="name"/>
+          <field name="gold_needed"/>
+          <field name="rock_needed"/>
+          <field name="metal_needed"/>
+          <field name="damage"/>
+          <field name="life"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="spaceships_invaders.spaceship_type_form">
+      <field name="name">spaceships_invaders spaceship_type form</field>
+      <field name="model">spaceships_invaders.spaceship_type</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <group>
+                <separator string="Data"></separator>
+                <field name="name"/>
+                <field name="damage"/>
+                <field name="life"/>
+              </group>
+              <group>
+                <separator string="Resources"></separator>
+                <field name="metal_needed"/>
+                <field name="gold_needed"/>
+                <field name="rock_needed"/>
+              </group>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="spaceships_invaders.planet_list">
+      <field name="name">spaceships_invaders planet list</field>
+      <field name="model">spaceships_invaders.planet</field>
+      <field name="arch" type="xml">
+        <tree >
+          <field name="name"/>
+          <field name="life"/>
+          <field name="quantity_gold_hour"/>
+          <field name="quantity_rock_hour"/>
+          <field name="quantity_metal_hour"/>
+          <field name="player"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="spaceships_invaders.planet_form">
+      <field name="name">spaceships_invaders planet form</field>
+      <field name="model">spaceships_invaders.planet</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <group>
+                <field name="name"/>
+                <field name="life"/>
+                <field name="player"/>
+              </group>
+              <group>
+                <field name="quantity_gold_hour"/>
+                <field name="quantity_rock_hour"/>
+                <field name="quantity_metal_hour"/>
+              </group>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
 
     <!-- actions opening views on models -->
 
