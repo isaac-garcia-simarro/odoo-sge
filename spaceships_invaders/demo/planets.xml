@@ -1,0 +1,299 @@
+<odoo><data>
+<record id='spaceships_invaders.planet1'  model='spaceships_invaders.planet'>
+<field name='name'>San Antonio</field>
+</record>
+<record id='spaceships_invaders.planet2'  model='spaceships_invaders.planet'>
+<field name='name'>Sunnyvale</field>
+</record>
+<record id='spaceships_invaders.planet3'  model='spaceships_invaders.planet'>
+<field name='name'>Costa Mesa</field>
+</record>
+<record id='spaceships_invaders.planet4'  model='spaceships_invaders.planet'>
+<field name='name'>Boston</field>
+</record>
+<record id='spaceships_invaders.planet5'  model='spaceships_invaders.planet'>
+<field name='name'>Hollywood</field>
+</record>
+<record id='spaceships_invaders.planet6'  model='spaceships_invaders.planet'>
+<field name='name'>St. Louis</field>
+</record>
+<record id='spaceships_invaders.planet7'  model='spaceships_invaders.planet'>
+<field name='name'>Murfreesboro</field>
+</record>
+<record id='spaceships_invaders.planet8'  model='spaceships_invaders.planet'>
+<field name='name'>Winter Haven</field>
+</record>
+<record id='spaceships_invaders.planet9'  model='spaceships_invaders.planet'>
+<field name='name'>Burlington</field>
+</record>
+<record id='spaceships_invaders.planet10'  model='spaceships_invaders.planet'>
+<field name='name'>Naples</field>
+</record>
+<record id='spaceships_invaders.planet11'  model='spaceships_invaders.planet'>
+<field name='name'>Santa Cruz</field>
+</record>
+<record id='spaceships_invaders.planet12'  model='spaceships_invaders.planet'>
+<field name='name'>Boulder</field>
+</record>
+<record id='spaceships_invaders.planet13'  model='spaceships_invaders.planet'>
+<field name='name'>Houma</field>
+</record>
+<record id='spaceships_invaders.planet14'  model='spaceships_invaders.planet'>
+<field name='name'>Mission Viejo</field>
+</record>
+<record id='spaceships_invaders.planet15'  model='spaceships_invaders.planet'>
+<field name='name'>Little Rock</field>
+</record>
+<record id='spaceships_invaders.planet16'  model='spaceships_invaders.planet'>
+<field name='name'>Daytona Beach</field>
+</record>
+<record id='spaceships_invaders.planet17'  model='spaceships_invaders.planet'>
+<field name='name'>West Covina</field>
+</record>
+<record id='spaceships_invaders.planet18'  model='spaceships_invaders.planet'>
+<field name='name'>Winston</field>
+</record>
+<record id='spaceships_invaders.planet19'  model='spaceships_invaders.planet'>
+<field name='name'>Colorado Springs</field>
+</record>
+<record id='spaceships_invaders.planet20'  model='spaceships_invaders.planet'>
+<field name='name'>Coral Springs</field>
+</record>
+<record id='spaceships_invaders.planet21'  model='spaceships_invaders.planet'>
+<field name='name'>Overland Park</field>
+</record>
+<record id='spaceships_invaders.planet22'  model='spaceships_invaders.planet'>
+<field name='name'>Frederick</field>
+</record>
+<record id='spaceships_invaders.planet23'  model='spaceships_invaders.planet'>
+<field name='name'>Baltimore</field>
+</record>
+<record id='spaceships_invaders.planet24'  model='spaceships_invaders.planet'>
+<field name='name'>Sioux City</field>
+</record>
+<record id='spaceships_invaders.planet25'  model='spaceships_invaders.planet'>
+<field name='name'>Salt Lake City</field>
+</record>
+<record id='spaceships_invaders.planet26'  model='spaceships_invaders.planet'>
+<field name='name'>Berkeley</field>
+</record>
+<record id='spaceships_invaders.planet27'  model='spaceships_invaders.planet'>
+<field name='name'>Knoxville</field>
+</record>
+<record id='spaceships_invaders.planet28'  model='spaceships_invaders.planet'>
+<field name='name'>Richmond</field>
+</record>
+<record id='spaceships_invaders.planet29'  model='spaceships_invaders.planet'>
+<field name='name'>Layton</field>
+</record>
+<record id='spaceships_invaders.planet30'  model='spaceships_invaders.planet'>
+<field name='name'>Fort Smith</field>
+</record>
+<record id='spaceships_invaders.planet31'  model='spaceships_invaders.planet'>
+<field name='name'>Chula Vista</field>
+</record>
+<record id='spaceships_invaders.planet32'  model='spaceships_invaders.planet'>
+<field name='name'>Henderson</field>
+</record>
+<record id='spaceships_invaders.planet33'  model='spaceships_invaders.planet'>
+<field name='name'>Escondido</field>
+</record>
+<record id='spaceships_invaders.planet34'  model='spaceships_invaders.planet'>
+<field name='name'>Santa Clara</field>
+</record>
+<record id='spaceships_invaders.planet35'  model='spaceships_invaders.planet'>
+<field name='name'>Hartford</field>
+</record>
+<record id='spaceships_invaders.planet36'  model='spaceships_invaders.planet'>
+<field name='name'>Stamford</field>
+</record>
+<record id='spaceships_invaders.planet37'  model='spaceships_invaders.planet'>
+<field name='name'>Santa Cruzecita</field>
+</record>
+<record id='spaceships_invaders.planet38'  model='spaceships_invaders.planet'>
+<field name='name'>Ann Arbor</field>
+</record>
+<record id='spaceships_invaders.planet39'  model='spaceships_invaders.planet'>
+<field name='name'>Chandler</field>
+</record>
+<record id='spaceships_invaders.planet40'  model='spaceships_invaders.planet'>
+<field name='name'>Springdale</field>
+</record>
+<record id='spaceships_invaders.planet41'  model='spaceships_invaders.planet'>
+<field name='name'>Lacey</field>
+</record>
+<record id='spaceships_invaders.planet42'  model='spaceships_invaders.planet'>
+<field name='name'>Raleigh</field>
+</record>
+<record id='spaceships_invaders.planet43'  model='spaceships_invaders.planet'>
+<field name='name'>Champaign</field>
+</record>
+<record id='spaceships_invaders.planet44'  model='spaceships_invaders.planet'>
+<field name='name'>Chattanooga</field>
+</record>
+<record id='spaceships_invaders.planet45'  model='spaceships_invaders.planet'>
+<field name='name'>Fort Worth</field>
+</record>
+<record id='spaceships_invaders.planet46'  model='spaceships_invaders.planet'>
+<field name='name'>Santa Clarita</field>
+</record>
+<record id='spaceships_invaders.planet47'  model='spaceships_invaders.planet'>
+<field name='name'>Clarksville</field>
+</record>
+<record id='spaceships_invaders.planet48'  model='spaceships_invaders.planet'>
+<field name='name'>Washington</field>
+</record>
+<record id='spaceships_invaders.planet49'  model='spaceships_invaders.planet'>
+<field name='name'>Honolulu</field>
+</record>
+<record id='spaceships_invaders.planet50'  model='spaceships_invaders.planet'>
+<field name='name'>Grand Rapids</field>
+</record>
+<record id='spaceships_invaders.planet51'  model='spaceships_invaders.planet'>
+<field name='name'>Lancaster</field>
+</record>
+<record id='spaceships_invaders.planet52'  model='spaceships_invaders.planet'>
+<field name='name'>Moreno Valley</field>
+</record>
+<record id='spaceships_invaders.planet53'  model='spaceships_invaders.planet'>
+<field name='name'>Spartanburg</field>
+</record>
+<record id='spaceships_invaders.planet54'  model='spaceships_invaders.planet'>
+<field name='name'>Boise City</field>
+</record>
+<record id='spaceships_invaders.planet55'  model='spaceships_invaders.planet'>
+<field name='name'>Racine</field>
+</record>
+<record id='spaceships_invaders.planet56'  model='spaceships_invaders.planet'>
+<field name='name'>Lakeland</field>
+</record>
+<record id='spaceships_invaders.planet57'  model='spaceships_invaders.planet'>
+<field name='name'>Fontana</field>
+</record>
+<record id='spaceships_invaders.planet58'  model='spaceships_invaders.planet'>
+<field name='name'>Minneapolis</field>
+</record>
+<record id='spaceships_invaders.planet59'  model='spaceships_invaders.planet'>
+<field name='name'>Miami</field>
+</record>
+<record id='spaceships_invaders.planet60'  model='spaceships_invaders.planet'>
+<field name='name'>Davidson County</field>
+</record>
+<record id='spaceships_invaders.planet61'  model='spaceships_invaders.planet'>
+<field name='name'>Columbus</field>
+</record>
+<record id='spaceships_invaders.planet62'  model='spaceships_invaders.planet'>
+<field name='name'>Green Bay</field>
+</record>
+<record id='spaceships_invaders.planet63'  model='spaceships_invaders.planet'>
+<field name='name'>Warren</field>
+</record>
+<record id='spaceships_invaders.planet64'  model='spaceships_invaders.planet'>
+<field name='name'>Honolula</field>
+</record>
+<record id='spaceships_invaders.planet65'  model='spaceships_invaders.planet'>
+<field name='name'>Cathedral City</field>
+</record>
+<record id='spaceships_invaders.planet66'  model='spaceships_invaders.planet'>
+<field name='name'>Fort Walton Beach</field>
+</record>
+<record id='spaceships_invaders.planet67'  model='spaceships_invaders.planet'>
+<field name='name'>New London</field>
+</record>
+<record id='spaceships_invaders.planet68'  model='spaceships_invaders.planet'>
+<field name='name'>Sterling Heights</field>
+</record>
+<record id='spaceships_invaders.planet69'  model='spaceships_invaders.planet'>
+<field name='name'>Daly City</field>
+</record>
+<record id='spaceships_invaders.planet70'  model='spaceships_invaders.planet'>
+<field name='name'>Appleton</field>
+</record>
+<record id='spaceships_invaders.planet71'  model='spaceships_invaders.planet'>
+<field name='name'>Jersey City</field>
+</record>
+<record id='spaceships_invaders.planet72'  model='spaceships_invaders.planet'>
+<field name='name'>Des Moines</field>
+</record>
+<record id='spaceships_invaders.planet73'  model='spaceships_invaders.planet'>
+<field name='name'>Murrieta</field>
+</record>
+<record id='spaceships_invaders.planet74'  model='spaceships_invaders.planet'>
+<field name='name'>Glendale</field>
+</record>
+<record id='spaceships_invaders.planet75'  model='spaceships_invaders.planet'>
+<field name='name'>Topeka</field>
+</record>
+<record id='spaceships_invaders.planet76'  model='spaceships_invaders.planet'>
+<field name='name'>Kalamazoo</field>
+</record>
+<record id='spaceships_invaders.planet77'  model='spaceships_invaders.planet'>
+<field name='name'>Providence</field>
+</record>
+<record id='spaceships_invaders.planet78'  model='spaceships_invaders.planet'>
+<field name='name'>St. Louisa</field>
+</record>
+<record id='spaceships_invaders.planet79'  model='spaceships_invaders.planet'>
+<field name='name'>Cedar Rapidsa</field>
+</record>
+<record id='spaceships_invaders.planet80'  model='spaceships_invaders.planet'>
+<field name='name'>Uticae</field>
+</record>
+<record id='spaceships_invaders.planet81'  model='spaceships_invaders.planet'>
+<field name='name'>Poughkeepsiea</field>
+</record>
+<record id='spaceships_invaders.planet82'  model='spaceships_invaders.planet'>
+<field name='name'>Indianapolisa</field>
+</record>
+<record id='spaceships_invaders.planet83'  model='spaceships_invaders.planet'>
+<field name='name'>Dentona</field>
+</record>
+<record id='spaceships_invaders.planet84'  model='spaceships_invaders.planet'>
+<field name='name'>Newport Newsa</field>
+</record>
+<record id='spaceships_invaders.planet85'  model='spaceships_invaders.planet'>
+<field name='name'>Leominstera</field>
+</record>
+<record id='spaceships_invaders.planet86'  model='spaceships_invaders.planet'>
+<field name='name'>Vancouvera</field>
+</record>
+<record id='spaceships_invaders.planet87'  model='spaceships_invaders.planet'>
+<field name='name'>Waterloa</field>
+</record>
+<record id='spaceships_invaders.planet88'  model='spaceships_invaders.planet'>
+<field name='name'>Danburya</field>
+</record>
+<record id='spaceships_invaders.planet89'  model='spaceships_invaders.planet'>
+<field name='name'>St. Petersburgas</field>
+</record>
+<record id='spaceships_invaders.planet90'  model='spaceships_invaders.planet'>
+<field name='name'>Berkeleya</field>
+</record>
+<record id='spaceships_invaders.planet91'  model='spaceships_invaders.planet'>
+<field name='name'>Wichitas</field>
+</record>
+<record id='spaceships_invaders.planet92'  model='spaceships_invaders.planet'>
+<field name='name'>Billingsa</field>
+</record>
+<record id='spaceships_invaders.planet93'  model='spaceships_invaders.planet'>
+<field name='name'>Sioux Citys</field>
+</record>
+<record id='spaceships_invaders.planet94'  model='spaceships_invaders.planet'>
+<field name='name'>West Valley Citys</field>
+</record>
+<record id='spaceships_invaders.planet95'  model='spaceships_invaders.planet'>
+<field name='name'>Lancastery</field>
+</record>
+<record id='spaceships_invaders.planet96'  model='spaceships_invaders.planet'>
+<field name='name'>Palm Springsa</field>
+</record>
+<record id='spaceships_invaders.planet97'  model='spaceships_invaders.planet'>
+<field name='name'>Milwaukea</field>
+</record>
+<record id='spaceships_invaders.planet98'  model='spaceships_invaders.planet'>
+<field name='name'>Port Saint Lucia</field>
+</record>
+<record id='spaceships_invaders.planet99'  model='spaceships_invaders.planet'>
+<field name='name'>Olatha</field>
+</record>
+</data></odoo>
