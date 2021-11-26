@@ -1,497 +1,398 @@
 <odoo><data>
-<record id='spaceships_invaders.playerFannie'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player1'  model='spaceships_invaders.player'>
 <field name='name'>Fannie</field>
 <field name='birth_date'>1974-7-22</field>
-<field name='planet' ref='spaceships_invaders.planet1'></field>
 </record>
-<record id='spaceships_invaders.playerDarline'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player2'  model='spaceships_invaders.player'>
 <field name='name'>Darline</field>
 <field name='birth_date'>1906-12-9</field>
-<field name='planet' ref='spaceships_invaders.planet2'></field>
 </record>
-<record id='spaceships_invaders.playerPatti'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player3'  model='spaceships_invaders.player'>
 <field name='name'>Patti</field>
 <field name='birth_date'>1967-6-25</field>
-<field name='planet' ref='spaceships_invaders.planet3'></field>
 </record>
-<record id='spaceships_invaders.playerMarybeth'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player4'  model='spaceships_invaders.player'>
 <field name='name'>Marybeth</field>
 <field name='birth_date'>1928-1-28</field>
-<field name='planet' ref='spaceships_invaders.planet4'></field>
 </record>
-<record id='spaceships_invaders.playerCyndi'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player5'  model='spaceships_invaders.player'>
 <field name='name'>Cyndi</field>
 <field name='birth_date'>1959-1-21</field>
-<field name='planet' ref='spaceships_invaders.planet5'></field>
 </record>
-<record id='spaceships_invaders.playerLetitia'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player6'  model='spaceships_invaders.player'>
 <field name='name'>Letitia</field>
 <field name='birth_date'>1926-12-23</field>
-<field name='planet' ref='spaceships_invaders.planet6'></field>
 </record>
-<record id='spaceships_invaders.playerTamma'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player7'  model='spaceships_invaders.player'>
 <field name='name'>Tamma</field>
 <field name='birth_date'>1950-7-4</field>
-<field name='planet' ref='spaceships_invaders.planet7'></field>
 </record>
-<record id='spaceships_invaders.playerJess'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player8'  model='spaceships_invaders.player'>
 <field name='name'>Jess</field>
 <field name='birth_date'>1968-3-25</field>
-<field name='planet' ref='spaceships_invaders.planet8'></field>
 </record>
-<record id='spaceships_invaders.playerVoltaire'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player9'  model='spaceships_invaders.player'>
 <field name='name'>Voltaire</field>
 <field name='birth_date'>1901-7-9</field>
-<field name='planet' ref='spaceships_invaders.planet9'></field>
 </record>
-<record id='spaceships_invaders.playerOona'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player10'  model='spaceships_invaders.player'>
 <field name='name'>Oona</field>
 <field name='birth_date'>1920-8-5</field>
-<field name='planet' ref='spaceships_invaders.planet10'></field>
 </record>
-<record id='spaceships_invaders.playerRoanne'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player11'  model='spaceships_invaders.player'>
 <field name='name'>Roanne</field>
 <field name='birth_date'>1957-9-26</field>
-<field name='planet' ref='spaceships_invaders.planet11'></field>
 </record>
-<record id='spaceships_invaders.playerBabara'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player12'  model='spaceships_invaders.player'>
 <field name='name'>Babara</field>
 <field name='birth_date'>1964-3-10</field>
-<field name='planet' ref='spaceships_invaders.planet12'></field>
 </record>
-<record id='spaceships_invaders.playerRoyce'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player13'  model='spaceships_invaders.player'>
 <field name='name'>Royce</field>
 <field name='birth_date'>1900-11-26</field>
-<field name='planet' ref='spaceships_invaders.planet13'></field>
 </record>
-<record id='spaceships_invaders.playerNeila'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player14'  model='spaceships_invaders.player'>
 <field name='name'>Neila</field>
 <field name='birth_date'>1914-8-17</field>
-<field name='planet' ref='spaceships_invaders.planet14'></field>
 </record>
-<record id='spaceships_invaders.playerDyana'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player15'  model='spaceships_invaders.player'>
 <field name='name'>Dyana</field>
 <field name='birth_date'>1976-3-4</field>
-<field name='planet' ref='spaceships_invaders.planet15'></field>
 </record>
-<record id='spaceships_invaders.playerGuglielma'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player16'  model='spaceships_invaders.player'>
 <field name='name'>Guglielma</field>
 <field name='birth_date'>1987-1-5</field>
-<field name='planet' ref='spaceships_invaders.planet16'></field>
 </record>
-<record id='spaceships_invaders.playerKellen'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player17'  model='spaceships_invaders.player'>
 <field name='name'>Kellen</field>
 <field name='birth_date'>1922-10-23</field>
-<field name='planet' ref='spaceships_invaders.planet17'></field>
 </record>
-<record id='spaceships_invaders.playerStorey'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player18'  model='spaceships_invaders.player'>
 <field name='name'>Storey</field>
 <field name='birth_date'>1988-7-13</field>
-<field name='planet' ref='spaceships_invaders.planet18'></field>
 </record>
-<record id='spaceships_invaders.playerHuey'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player19'  model='spaceships_invaders.player'>
 <field name='name'>Huey</field>
 <field name='birth_date'>1919-1-22</field>
-<field name='planet' ref='spaceships_invaders.planet19'></field>
 </record>
-<record id='spaceships_invaders.playerEthelbert'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player20'  model='spaceships_invaders.player'>
 <field name='name'>Ethelbert</field>
 <field name='birth_date'>1994-9-9</field>
-<field name='planet' ref='spaceships_invaders.planet20'></field>
 </record>
-<record id='spaceships_invaders.playerWynny'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player21'  model='spaceships_invaders.player'>
 <field name='name'>Wynny</field>
 <field name='birth_date'>1930-12-6</field>
-<field name='planet' ref='spaceships_invaders.planet21'></field>
 </record>
-<record id='spaceships_invaders.playerBert'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player22'  model='spaceships_invaders.player'>
 <field name='name'>Bert</field>
 <field name='birth_date'>1978-11-28</field>
-<field name='planet' ref='spaceships_invaders.planet22'></field>
 </record>
-<record id='spaceships_invaders.playerSkipton'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player23'  model='spaceships_invaders.player'>
 <field name='name'>Skipton</field>
 <field name='birth_date'>1919-9-6</field>
-<field name='planet' ref='spaceships_invaders.planet23'></field>
 </record>
-<record id='spaceships_invaders.playerNormie'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player24'  model='spaceships_invaders.player'>
 <field name='name'>Normie</field>
 <field name='birth_date'>1981-4-11</field>
-<field name='planet' ref='spaceships_invaders.planet24'></field>
 </record>
-<record id='spaceships_invaders.playerTeresa'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player25'  model='spaceships_invaders.player'>
 <field name='name'>Teresa</field>
 <field name='birth_date'>1964-4-27</field>
-<field name='planet' ref='spaceships_invaders.planet25'></field>
 </record>
-<record id='spaceships_invaders.playerCharlot'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player26'  model='spaceships_invaders.player'>
 <field name='name'>Charlot</field>
 <field name='birth_date'>1993-2-9</field>
-<field name='planet' ref='spaceships_invaders.planet26'></field>
 </record>
-<record id='spaceships_invaders.playerCecile'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player27'  model='spaceships_invaders.player'>
 <field name='name'>Cecile</field>
 <field name='birth_date'>1963-4-7</field>
-<field name='planet' ref='spaceships_invaders.planet27'></field>
 </record>
-<record id='spaceships_invaders.playerJoab'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player28'  model='spaceships_invaders.player'>
 <field name='name'>Joab</field>
 <field name='birth_date'>1978-9-4</field>
-<field name='planet' ref='spaceships_invaders.planet28'></field>
 </record>
-<record id='spaceships_invaders.playerMelisenda'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player29'  model='spaceships_invaders.player'>
 <field name='name'>Melisenda</field>
 <field name='birth_date'>1972-10-15</field>
-<field name='planet' ref='spaceships_invaders.planet29'></field>
 </record>
-<record id='spaceships_invaders.playerElisabet'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player30'  model='spaceships_invaders.player'>
 <field name='name'>Elisabet</field>
 <field name='birth_date'>1926-1-3</field>
-<field name='planet' ref='spaceships_invaders.planet30'></field>
 </record>
-<record id='spaceships_invaders.playerEden'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player31'  model='spaceships_invaders.player'>
 <field name='name'>Eden</field>
 <field name='birth_date'>1976-9-25</field>
-<field name='planet' ref='spaceships_invaders.planet31'></field>
 </record>
-<record id='spaceships_invaders.playerSomerset'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player32'  model='spaceships_invaders.player'>
 <field name='name'>Somerset</field>
 <field name='birth_date'>1968-5-3</field>
-<field name='planet' ref='spaceships_invaders.planet32'></field>
 </record>
-<record id='spaceships_invaders.playerKelcie'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player33'  model='spaceships_invaders.player'>
 <field name='name'>Kelcie</field>
 <field name='birth_date'>1929-5-11</field>
-<field name='planet' ref='spaceships_invaders.planet33'></field>
 </record>
-<record id='spaceships_invaders.playerGiovanne'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player34'  model='spaceships_invaders.player'>
 <field name='name'>Giovanne</field>
 <field name='birth_date'>1941-8-18</field>
-<field name='planet' ref='spaceships_invaders.planet34'></field>
 </record>
-<record id='spaceships_invaders.playerBevvy'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player35'  model='spaceships_invaders.player'>
 <field name='name'>Bevvy</field>
 <field name='birth_date'>1909-6-23</field>
-<field name='planet' ref='spaceships_invaders.planet35'></field>
 </record>
-<record id='spaceships_invaders.playerAndrea'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player36'  model='spaceships_invaders.player'>
 <field name='name'>Andrea</field>
 <field name='birth_date'>1959-4-3</field>
-<field name='planet' ref='spaceships_invaders.planet36'></field>
 </record>
-<record id='spaceships_invaders.playerLewis'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player37'  model='spaceships_invaders.player'>
 <field name='name'>Lewis</field>
 <field name='birth_date'>1974-3-5</field>
-<field name='planet' ref='spaceships_invaders.planet37'></field>
 </record>
-<record id='spaceships_invaders.playerTonnie'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player38'  model='spaceships_invaders.player'>
 <field name='name'>Tonnie</field>
 <field name='birth_date'>1926-1-28</field>
-<field name='planet' ref='spaceships_invaders.planet38'></field>
 </record>
-<record id='spaceships_invaders.playerSadie'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player39'  model='spaceships_invaders.player'>
 <field name='name'>Sadie</field>
 <field name='birth_date'>1903-4-28</field>
-<field name='planet' ref='spaceships_invaders.planet39'></field>
 </record>
-<record id='spaceships_invaders.playerEmyle'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player40'  model='spaceships_invaders.player'>
 <field name='name'>Emyle</field>
 <field name='birth_date'>1964-9-18</field>
-<field name='planet' ref='spaceships_invaders.planet40'></field>
 </record>
-<record id='spaceships_invaders.playerTrenna'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player41'  model='spaceships_invaders.player'>
 <field name='name'>Trenna</field>
 <field name='birth_date'>1907-1-27</field>
-<field name='planet' ref='spaceships_invaders.planet41'></field>
 </record>
-<record id='spaceships_invaders.playerMyron'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player42'  model='spaceships_invaders.player'>
 <field name='name'>Myron</field>
 <field name='birth_date'>1948-4-18</field>
-<field name='planet' ref='spaceships_invaders.planet42'></field>
 </record>
-<record id='spaceships_invaders.playerChristy'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player43'  model='spaceships_invaders.player'>
 <field name='name'>Christy</field>
 <field name='birth_date'>1935-2-5</field>
-<field name='planet' ref='spaceships_invaders.planet43'></field>
 </record>
-<record id='spaceships_invaders.playerNeala'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player44'  model='spaceships_invaders.player'>
 <field name='name'>Neala</field>
 <field name='birth_date'>1957-7-8</field>
-<field name='planet' ref='spaceships_invaders.planet44'></field>
 </record>
-<record id='spaceships_invaders.playerBunnie'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player45'  model='spaceships_invaders.player'>
 <field name='name'>Bunnie</field>
 <field name='birth_date'>1987-9-15</field>
-<field name='planet' ref='spaceships_invaders.planet45'></field>
 </record>
-<record id='spaceships_invaders.playerNathanial'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player46'  model='spaceships_invaders.player'>
 <field name='name'>Nathanial</field>
 <field name='birth_date'>1912-4-10</field>
-<field name='planet' ref='spaceships_invaders.planet46'></field>
 </record>
-<record id='spaceships_invaders.playerRudiger'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player47'  model='spaceships_invaders.player'>
 <field name='name'>Rudiger</field>
 <field name='birth_date'>1966-7-11</field>
-<field name='planet' ref='spaceships_invaders.planet47'></field>
 </record>
-<record id='spaceships_invaders.playerMerlin'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player48'  model='spaceships_invaders.player'>
 <field name='name'>Merlin</field>
 <field name='birth_date'>1909-2-24</field>
-<field name='planet' ref='spaceships_invaders.planet48'></field>
 </record>
-<record id='spaceships_invaders.playerConcordia'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player49'  model='spaceships_invaders.player'>
 <field name='name'>Concordia</field>
 <field name='birth_date'>1901-2-9</field>
-<field name='planet' ref='spaceships_invaders.planet49'></field>
 </record>
-<record id='spaceships_invaders.playerAubrey'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player50'  model='spaceships_invaders.player'>
 <field name='name'>Aubrey</field>
 <field name='birth_date'>1993-7-16</field>
-<field name='planet' ref='spaceships_invaders.planet50'></field>
 </record>
-<record id='spaceships_invaders.playerWiatt'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player51'  model='spaceships_invaders.player'>
 <field name='name'>Wiatt</field>
 <field name='birth_date'>1931-9-27</field>
-<field name='planet' ref='spaceships_invaders.planet51'></field>
 </record>
-<record id='spaceships_invaders.playerLevy'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player52'  model='spaceships_invaders.player'>
 <field name='name'>Levy</field>
 <field name='birth_date'>1970-8-15</field>
-<field name='planet' ref='spaceships_invaders.planet52'></field>
 </record>
-<record id='spaceships_invaders.playerRosette'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player53'  model='spaceships_invaders.player'>
 <field name='name'>Rosette</field>
 <field name='birth_date'>1950-6-7</field>
-<field name='planet' ref='spaceships_invaders.planet53'></field>
 </record>
-<record id='spaceships_invaders.playerAshley'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player54'  model='spaceships_invaders.player'>
 <field name='name'>Ashley</field>
 <field name='birth_date'>1959-5-1</field>
-<field name='planet' ref='spaceships_invaders.planet54'></field>
 </record>
-<record id='spaceships_invaders.playerGarth'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player55'  model='spaceships_invaders.player'>
 <field name='name'>Garth</field>
 <field name='birth_date'>1934-3-7</field>
-<field name='planet' ref='spaceships_invaders.planet55'></field>
 </record>
-<record id='spaceships_invaders.playerJessamyn'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player56'  model='spaceships_invaders.player'>
 <field name='name'>Jessamyn</field>
 <field name='birth_date'>1991-1-6</field>
-<field name='planet' ref='spaceships_invaders.planet56'></field>
 </record>
-<record id='spaceships_invaders.playerZea'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player57'  model='spaceships_invaders.player'>
 <field name='name'>Zea</field>
 <field name='birth_date'>1957-9-7</field>
-<field name='planet' ref='spaceships_invaders.planet57'></field>
 </record>
-<record id='spaceships_invaders.playerLian'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player58'  model='spaceships_invaders.player'>
 <field name='name'>Lian</field>
 <field name='birth_date'>1905-9-7</field>
-<field name='planet' ref='spaceships_invaders.planet58'></field>
 </record>
-<record id='spaceships_invaders.playerEkaterina'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player59'  model='spaceships_invaders.player'>
 <field name='name'>Ekaterina</field>
 <field name='birth_date'>1996-11-11</field>
-<field name='planet' ref='spaceships_invaders.planet59'></field>
 </record>
-<record id='spaceships_invaders.playerHerby'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player60'  model='spaceships_invaders.player'>
 <field name='name'>Herby</field>
 <field name='birth_date'>1937-2-24</field>
-<field name='planet' ref='spaceships_invaders.planet60'></field>
 </record>
-<record id='spaceships_invaders.playerTracy'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player61'  model='spaceships_invaders.player'>
 <field name='name'>Tracy</field>
 <field name='birth_date'>1992-12-18</field>
-<field name='planet' ref='spaceships_invaders.planet61'></field>
 </record>
-<record id='spaceships_invaders.playerSayres'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player62'  model='spaceships_invaders.player'>
 <field name='name'>Sayres</field>
 <field name='birth_date'>1929-5-22</field>
-<field name='planet' ref='spaceships_invaders.planet62'></field>
 </record>
-<record id='spaceships_invaders.playerZia'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player63'  model='spaceships_invaders.player'>
 <field name='name'>Zia</field>
 <field name='birth_date'>1954-5-15</field>
-<field name='planet' ref='spaceships_invaders.planet63'></field>
 </record>
-<record id='spaceships_invaders.playerEarl'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player64'  model='spaceships_invaders.player'>
 <field name='name'>Earl</field>
 <field name='birth_date'>1929-4-9</field>
-<field name='planet' ref='spaceships_invaders.planet64'></field>
 </record>
-<record id='spaceships_invaders.playerStafani'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player65'  model='spaceships_invaders.player'>
 <field name='name'>Stafani</field>
 <field name='birth_date'>1986-9-21</field>
-<field name='planet' ref='spaceships_invaders.planet65'></field>
 </record>
-<record id='spaceships_invaders.playerJane'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player66'  model='spaceships_invaders.player'>
 <field name='name'>Jane</field>
 <field name='birth_date'>1995-9-28</field>
-<field name='planet' ref='spaceships_invaders.planet66'></field>
 </record>
-<record id='spaceships_invaders.playerAppolonia'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player67'  model='spaceships_invaders.player'>
 <field name='name'>Appolonia</field>
 <field name='birth_date'>1978-3-1</field>
-<field name='planet' ref='spaceships_invaders.planet67'></field>
 </record>
-<record id='spaceships_invaders.playerWestley'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player68'  model='spaceships_invaders.player'>
 <field name='name'>Westley</field>
 <field name='birth_date'>1942-3-24</field>
-<field name='planet' ref='spaceships_invaders.planet68'></field>
 </record>
-<record id='spaceships_invaders.playerOberon'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player69'  model='spaceships_invaders.player'>
 <field name='name'>Oberon</field>
 <field name='birth_date'>1948-11-1</field>
-<field name='planet' ref='spaceships_invaders.planet69'></field>
 </record>
-<record id='spaceships_invaders.playerRandene'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player70'  model='spaceships_invaders.player'>
 <field name='name'>Randene</field>
 <field name='birth_date'>1946-10-27</field>
-<field name='planet' ref='spaceships_invaders.planet70'></field>
 </record>
-<record id='spaceships_invaders.playerDee Dee'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player71'  model='spaceships_invaders.player'>
 <field name='name'>Dee Dee</field>
 <field name='birth_date'>1984-2-23</field>
-<field name='planet' ref='spaceships_invaders.planet71'></field>
 </record>
-<record id='spaceships_invaders.playerStefania'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player72'  model='spaceships_invaders.player'>
 <field name='name'>Stefania</field>
 <field name='birth_date'>1945-10-19</field>
-<field name='planet' ref='spaceships_invaders.planet72'></field>
 </record>
-<record id='spaceships_invaders.playerLazlo'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player73'  model='spaceships_invaders.player'>
 <field name='name'>Lazlo</field>
 <field name='birth_date'>1928-1-18</field>
-<field name='planet' ref='spaceships_invaders.planet73'></field>
 </record>
-<record id='spaceships_invaders.playerLoren'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player74'  model='spaceships_invaders.player'>
 <field name='name'>Loren</field>
 <field name='birth_date'>1962-9-16</field>
-<field name='planet' ref='spaceships_invaders.planet74'></field>
 </record>
-<record id='spaceships_invaders.playerHelaine'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player75'  model='spaceships_invaders.player'>
 <field name='name'>Helaine</field>
 <field name='birth_date'>1973-7-14</field>
-<field name='planet' ref='spaceships_invaders.planet75'></field>
 </record>
-<record id='spaceships_invaders.playerNorina'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player76'  model='spaceships_invaders.player'>
 <field name='name'>Norina</field>
 <field name='birth_date'>1970-5-11</field>
-<field name='planet' ref='spaceships_invaders.planet76'></field>
 </record>
-<record id='spaceships_invaders.playerEleonore'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player77'  model='spaceships_invaders.player'>
 <field name='name'>Eleonore</field>
 <field name='birth_date'>1918-3-26</field>
-<field name='planet' ref='spaceships_invaders.planet77'></field>
 </record>
-<record id='spaceships_invaders.playerHy'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player78'  model='spaceships_invaders.player'>
 <field name='name'>Hy</field>
 <field name='birth_date'>1990-12-16</field>
-<field name='planet' ref='spaceships_invaders.planet78'></field>
 </record>
-<record id='spaceships_invaders.playerKameko'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player79'  model='spaceships_invaders.player'>
 <field name='name'>Kameko</field>
 <field name='birth_date'>1959-11-5</field>
-<field name='planet' ref='spaceships_invaders.planet79'></field>
 </record>
-<record id='spaceships_invaders.playerMerrilee'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player80'  model='spaceships_invaders.player'>
 <field name='name'>Merrilee</field>
 <field name='birth_date'>1980-7-24</field>
-<field name='planet' ref='spaceships_invaders.planet80'></field>
 </record>
-<record id='spaceships_invaders.playerTrixy'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player81'  model='spaceships_invaders.player'>
 <field name='name'>Trixy</field>
 <field name='birth_date'>1954-4-16</field>
-<field name='planet' ref='spaceships_invaders.planet81'></field>
 </record>
-<record id='spaceships_invaders.playerAnny'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player82'  model='spaceships_invaders.player'>
 <field name='name'>Anny</field>
 <field name='birth_date'>1958-10-10</field>
-<field name='planet' ref='spaceships_invaders.planet82'></field>
 </record>
-<record id='spaceships_invaders.playerCharyl'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player83'  model='spaceships_invaders.player'>
 <field name='name'>Charyl</field>
 <field name='birth_date'>1963-11-4</field>
-<field name='planet' ref='spaceships_invaders.planet83'></field>
 </record>
-<record id='spaceships_invaders.playerFilbert'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player84'  model='spaceships_invaders.player'>
 <field name='name'>Filbert</field>
 <field name='birth_date'>1925-12-25</field>
-<field name='planet' ref='spaceships_invaders.planet84'></field>
 </record>
-<record id='spaceships_invaders.playerAriella'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player85'  model='spaceships_invaders.player'>
 <field name='name'>Ariella</field>
 <field name='birth_date'>1923-11-17</field>
-<field name='planet' ref='spaceships_invaders.planet85'></field>
 </record>
-<record id='spaceships_invaders.playerYancey'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player86'  model='spaceships_invaders.player'>
 <field name='name'>Yancey</field>
 <field name='birth_date'>1978-2-15</field>
-<field name='planet' ref='spaceships_invaders.planet86'></field>
 </record>
-<record id='spaceships_invaders.playerAlli'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player87'  model='spaceships_invaders.player'>
 <field name='name'>Alli</field>
 <field name='birth_date'>1984-1-21</field>
-<field name='planet' ref='spaceships_invaders.planet87'></field>
 </record>
-<record id='spaceships_invaders.playerAlexine'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player88'  model='spaceships_invaders.player'>
 <field name='name'>Alexine</field>
 <field name='birth_date'>1967-1-7</field>
-<field name='planet' ref='spaceships_invaders.planet88'></field>
 </record>
-<record id='spaceships_invaders.playerDanell'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player89'  model='spaceships_invaders.player'>
 <field name='name'>Danell</field>
 <field name='birth_date'>1995-2-4</field>
-<field name='planet' ref='spaceships_invaders.planet89'></field>
 </record>
-<record id='spaceships_invaders.playerFlorie'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player90'  model='spaceships_invaders.player'>
 <field name='name'>Florie</field>
 <field name='birth_date'>1930-9-24</field>
-<field name='planet' ref='spaceships_invaders.planet90'></field>
 </record>
-<record id='spaceships_invaders.playerCodi'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player91'  model='spaceships_invaders.player'>
 <field name='name'>Codi</field>
 <field name='birth_date'>1932-5-7</field>
-<field name='planet' ref='spaceships_invaders.planet91'></field>
 </record>
-<record id='spaceships_invaders.playerEmily'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player92'  model='spaceships_invaders.player'>
 <field name='name'>Emily</field>
 <field name='birth_date'>1955-4-15</field>
-<field name='planet' ref='spaceships_invaders.planet92'></field>
 </record>
-<record id='spaceships_invaders.playerRuddie'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player93'  model='spaceships_invaders.player'>
 <field name='name'>Ruddie</field>
 <field name='birth_date'>1973-10-15</field>
-<field name='planet' ref='spaceships_invaders.planet93'></field>
 </record>
-<record id='spaceships_invaders.playerCamel'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player94'  model='spaceships_invaders.player'>
 <field name='name'>Camel</field>
 <field name='birth_date'>1919-3-12</field>
-<field name='planet' ref='spaceships_invaders.planet94'></field>
 </record>
-<record id='spaceships_invaders.playerLester'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player95'  model='spaceships_invaders.player'>
 <field name='name'>Lester</field>
 <field name='birth_date'>1948-6-4</field>
-<field name='planet' ref='spaceships_invaders.planet95'></field>
 </record>
-<record id='spaceships_invaders.playerMatthus'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player96'  model='spaceships_invaders.player'>
 <field name='name'>Matthus</field>
 <field name='birth_date'>1984-8-8</field>
-<field name='planet' ref='spaceships_invaders.planet96'></field>
 </record>
-<record id='spaceships_invaders.playerConstantine'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player97'  model='spaceships_invaders.player'>
 <field name='name'>Constantine</field>
 <field name='birth_date'>1998-3-15</field>
-<field name='planet' ref='spaceships_invaders.planet97'></field>
 </record>
-<record id='spaceships_invaders.playerCherida'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player98'  model='spaceships_invaders.player'>
 <field name='name'>Cherida</field>
 <field name='birth_date'>1916-12-19</field>
-<field name='planet' ref='spaceships_invaders.planet98'></field>
 </record>
-<record id='spaceships_invaders.playerRipley'  model='spaceships_invaders.player'>
+<record id='spaceships_invaders.player99'  model='spaceships_invaders.player'>
 <field name='name'>Ripley</field>
 <field name='birth_date'>1940-12-4</field>
-<field name='planet' ref='spaceships_invaders.planet99'></field>
 </record>
 </data></odoo>
