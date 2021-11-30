@@ -26,6 +26,10 @@
           <sheet>
             <group>
               <group>
+                <field name="photo" widget="image"/>
+              </group>
+              <group></group>
+              <group>
                 <field name="name"/>
                 <field name="birth_date"/>
                 <field name="gender"/>
@@ -72,6 +76,7 @@
         <form>
           <sheet>
             <group>
+              <field name="photo" widget="image"/>
               <field name="name"/>
               <field name="life"/>
               <field name="is_on_planet"/>
@@ -105,6 +110,11 @@
         <form>
           <sheet>
             <group>
+              <group>
+                <field name="photo" widget="image"/>
+              </group>
+              <group>
+              </group>
               <group>
                 <separator string="Data"></separator>
                 <field name="name"/>
@@ -146,6 +156,11 @@
           <sheet>
             <group>
               <group>
+                <field name="photo" widget="image"/>
+              </group>
+              <group>
+              </group>
+              <group>
                 <field name="name"/>
                 <field name="life"/>
                 <field name="player"/>
@@ -166,25 +181,25 @@
     <record model="ir.actions.act_window" id="spaceships_invaders.action_player_window">
       <field name="name">spaceships_invaders player window</field>
       <field name="res_model">spaceships_invaders.player</field>
-      <field name="view_mode">tree,form</field>
+      <field name="view_mode">tree,form,kanban</field>
     </record>
 
     <record model="ir.actions.act_window" id="spaceships_invaders.action_spaceship_window">
       <field name="name">spaceships_invaders spaceship window</field>
       <field name="res_model">spaceships_invaders.spaceship</field>
-      <field name="view_mode">tree,form</field>
+      <field name="view_mode">tree,form,kanban</field>
     </record>
 
     <record model="ir.actions.act_window" id="spaceships_invaders.action_spaceship_type_window">
       <field name="name">spaceships_invaders spaceship_type window</field>
       <field name="res_model">spaceships_invaders.spaceship_type</field>
-      <field name="view_mode">tree,form</field>
+      <field name="view_mode">tree,form,kanban</field>
     </record>
 
     <record model="ir.actions.act_window" id="spaceships_invaders.action_planet_window">
       <field name="name">spaceships_invaders planet window</field>
       <field name="res_model">spaceships_invaders.planet</field>
-      <field name="view_mode">tree,form</field>
+      <field name="view_mode">tree,form,kanban</field>
     </record>
 
 
