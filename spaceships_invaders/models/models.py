@@ -23,6 +23,7 @@ class player(models.Model):
      gold = fields.Integer(required=True, default=100)
      rock = fields.Integer(required=True, default=300)
      metal = fields.Integer(required=True, default=200)
+     photo = fields.Image(max_width=200, max_height=200)
      planets = fields.One2many(comodel_name='spaceships_invaders.planet', 
                                 inverse_name='player')
      spaceships = fields.One2many(comodel_name='spaceships_invaders.spaceship', 
@@ -54,8 +55,9 @@ class spaceship(models.Model):
      name = fields.Char(required=True, default='Apolo')
      life = fields.Integer(required=True, default=100)
      is_on_planet = fields.Boolean(required=True, default=True)
+     photo = fields.Image(max_width=200, max_height=200)
      
-     type = player = fields.Many2one('spaceships_invaders.spaceship_type', 
+     type = fields.Many2one('spaceships_invaders.spaceship_type', 
                                         ondelete='set null', 
                                         help='Tipo de la nave')
      player = fields.Many2one('spaceships_invaders.player', ondelete='set null', help='Jugador al que pertenece')
@@ -76,6 +78,7 @@ class spaceship_type(models.Model):
     metal_needed = fields.Integer(required=True, default=100)
     damage = fields.Integer(required=True, default=lambda self: random.randint(20,100), readonly=True)
     life = fields.Integer(required=True,  default=lambda self: random.randint(50,200), readonly=True)
+    photo = fields.Image(max_width=200, max_height=200)
     _sql_constraints = [ ('stype_name_uniq', 'unique(name)', 'The name already exists') ]
 
 class planet(models.Model):
@@ -87,6 +90,7 @@ class planet(models.Model):
      quantity_gold_hour = fields.Integer(required=True, default=lambda s: s.life/100, readonly=True)
      quantity_rock_hour = fields.Integer(required=True, default=lambda s: s.life/10, readonly=True)
      quantity_metal_hour = fields.Integer(required=True, default=lambda s: s.life/50, readonly=True)
+     photo = fields.Image(max_width=200, max_height=200)
 
      player = fields.Many2one('spaceships_invaders.player', ondelete='set null', help='Jugador al que pertenece')
 

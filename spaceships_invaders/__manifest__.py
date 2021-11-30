@@ -32,6 +32,8 @@
     'demo': [
         'demo/demo.xml',
         'demo/planets.xml',
-        'demo/players.xml'
+        'demo/players.xml',
+        'demo/spaceship_types.xml',
+        'demo/spaceships.xml'
     ],
 }
