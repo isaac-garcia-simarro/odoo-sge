@@ -1,0 +1,121 @@
+<odoo>
+  <data>
+
+
+    <record model="ir.ui.view" id="sumacarcer.soci_tree">
+            <field name="name">Sumacarcer Soci Tree</field>
+            <field name="model">res.partner</field>
+        </record>
+
+
+    <record model="ir.ui.view" id="sumacarcer.soci_inherit_form">
+        <field name="name">Sumacarcer Soci inherit form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"></field>
+        <field name="arch" type="xml">
+            <notebook position="inside">
+                <page string="Valvules">
+                    <field name="valvules" />
+                </page>
+            </notebook>
+        </field>
+    </record>
+
+    <!-- Search de tree de valvules-->
+    <record model="ir.ui.view" id="sumacarcer.valvules_search">
+        <field name="name">sumacarcer valvules search</field>
+        <field name="model">sumacarcer.valvula</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="soci"/>
+                <field name="cabal" />
+                <filter name="group_by_soci" string="Soci" context="{'group_by': 'soci'}"/>
+                <filter name="group_by_cabals" string="Cabals" context="{'group_by': 'cabal'}"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="sumacarcer.list">
+      <field name="name">sumacarcer list</field>
+      <field name="model">sumacarcer.sumacarcer</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="sumacarcer.soci_action_window">
+      <field name="name">Sumacarcer Socis</field>
+      <field name="res_model">res.partner</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="sumacarcer.valvula_action_window">
+      <field name="name">Sumacarcer Valvules</field>
+      <field name="res_model">sumacarcer.valvula</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="sumacarcer.servici_action_window">
+      <field name="name">Sumacarcer Servicis</field>
+      <field name="res_model">sumacarcer.servici</field>
+      <field name="view_mode">tree,form,calendar</field>
+    </record>
+
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="sumacarcer.action_server">
+      <field name="name">sumacarcer server</field>
+      <field name="model_id" ref="model_sumacarcer_sumacarcer"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+    <menuitem name="sumacarcer" id="sumacarcer.menu_root"/>
+    <!-- menu categories -->
+    <menuitem name="Sumacarcer Management" id="sumacarcer.menu_1" parent="sumacarcer.menu_root"/>
+    <!-- actions -->
+    <menuitem name="Socis" id="sumacarcer.menu_socis_list" parent="sumacarcer.menu_1"
+              action="sumacarcer.soci_action_window"/>
+    <menuitem name="Valvules" id="sumacarcer.menu_valvules_list" parent="sumacarcer.menu_1"
+              action="sumacarcer.valvula_action_window"/>
+    <menuitem name="Servicis" id="sumacarcer.menu_servicis_list" parent="sumacarcer.menu_1"
+              action="sumacarcer.servici_action_window"/>
+<!--
+    <menuitem name="Server to list" id="sumacarcer" parent="sumacarcer.menu_2"
+              action="sumacarcer.action_server"/>
+-->
+
+     <!-- Calendar servicis -->
+    <record model="ir.ui.view" id="sumacarcer.servici_calendar_view">
+      <field name="name">sumacarcar servici calendar</field>
+      <field name="model">sumacarcer.servici</field>
+      <field name="arch" type="xml">
+          <calendar string="Servici Calendar" date_start="hora_inici"
+                    date_stop="hora_fi">
+              <field name="name"/>
+          </calendar>
+      </field>
+    </record>
+
+  
+
+  </data>
+</odoo>
